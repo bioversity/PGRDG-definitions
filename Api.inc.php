@@ -2662,7 +2662,7 @@ define( "kAPI_QUERY_OFFSETS",					'query-offsets' );
  * Referrer (User).
  *
  * This parameter is set when adding a new user, it will hold the referrer object with
- * the relaqted invitation removed.
+ * the related invitation removed.
  */
 define( "kAPI_REFERRER",						'referrer' );
 
