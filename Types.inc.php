@@ -1051,65 +1051,184 @@ define( "kTYPE_ERROR_BAD_TMPL_FILE",			'Invalid template file' );
  */
 define( "kTYPE_ERROR_BAD_TMPL_STRUCT",			'Incorrect template structure' );
 
+/**
+ * Missing required.
+ *
+ * This type indicates a missing required resource.
+ */
+define( "kTYPE_ERROR_MISSING_REQUIRED",			'Missing required' );
+
+/**
+ * Invalid value.
+ *
+ * This type indicates an invalid value.
+ */
+define( "kTYPE_ERROR_INVALID_VALUE",			'Invalid value' );
+
+/**
+ * Unmatched code.
+ *
+ * The code is invalid.
+ */
+define( "kTYPE_ERROR_INVALID_CODE",				'Invalid code' );
+
+/**
+ * Dubious value.
+ *
+ * The value may be incorrect.
+ */
+define( "kTYPE_ERROR_DUBIOUS_VALUE",			'Dubious value' );
+
 /*=======================================================================================
  *	ERROR CODES																			*
  *======================================================================================*/
+
+/**
+ * Missing array separator tokens.
+ *
+ * Missing separator tokens in template definition.
+ */
+define( "kTYPE_ERROR_CODE_NO_TOKEN",			  1 );
+
+/**
+ * Too many tokens.
+ *
+ * Invalid number of tokens in template definition.
+ */
+define( "kTYPE_ERROR_CODE_BAD_TOKENS",			  2 );
 
 /**
  * Invalid file.
  *
  * The template file is invalid.
  */
-define( "kTYPE_ERROR_CODE_FILE_BAD",			-1 );
+define( "kTYPE_ERROR_CODE_FILE_BAD",			 -1 );
 
 /**
  * Unreadable file.
  *
  * The template file is unreadable.
  */
-define( "kTYPE_ERROR_CODE_FILE_UNRWAD",			-2 );
+define( "kTYPE_ERROR_CODE_FILE_UNRWAD",			 -2 );
 
 /**
  * Unsupported file type.
  *
  * The template file is not supported.
  */
-define( "kTYPE_ERROR_CODE_FILE_UNSUP",			-3 );
+define( "kTYPE_ERROR_CODE_FILE_UNSUP",			 -3 );
 
 /**
  * Missing PID.
  *
  * The template file is missing its PID custom property.
  */
-define( "kTYPE_ERROR_CODE_NO_PID",				-4 );
+define( "kTYPE_ERROR_CODE_NO_PID",				 -4 );
 
 /**
  * Unknown PID.
  *
  * The template file PID is unknown or unsupported.
  */
-define( "kTYPE_ERROR_CODE_BAD_PID",				-5 );
+define( "kTYPE_ERROR_CODE_BAD_PID",				 -5 );
 
 /**
  * Missing required worksheet.
  *
  * The template is missing required worksheets.
  */
-define( "kTYPE_ERROR_CODE_REQ_WKSHEET",			-6 );
+define( "kTYPE_ERROR_CODE_REQ_WKSHEET",			 -6 );
 
 /**
  * Missing required column.
  *
  * The template is missing required columns.
  */
-define( "kTYPE_ERROR_CODE_REQ_COLUMN",			-7 );
+define( "kTYPE_ERROR_CODE_REQ_COLUMN",			 -7 );
+
+/**
+ * Missing required field.
+ *
+ * The template is missing required fields.
+ */
+define( "kTYPE_ERROR_CODE_REQ_FIELD",			 -8 );
 
 /**
  * Invalid template worksheet node reference.
  *
  * The worksheet record contains an invalid node reference.
  */
-define( "kTYPE_ERROR_CODE_BUG_WRKSHEET_NODE",	-8 );
+define( "kTYPE_ERROR_CODE_BUG_WRKSHEET_NODE",	 -9 );
+
+/**
+ * Invalid number.
+ *
+ * The value is not a number.
+ */
+define( "kTYPE_ERROR_CODE_BAD_NUMBER",			-10 );
+
+/**
+ * Invalid boolean.
+ *
+ * The value is not a boolean.
+ */
+define( "kTYPE_ERROR_CODE_BAD_BOOLEAN",			-11 );
+
+/**
+ * Missing shape type.
+ *
+ * The shape is missing its type.
+ */
+define( "kTYPE_ERROR_CODE_NO_SHAPE_TYPE",		-12 );
+
+/**
+ * Bad shape type.
+ *
+ * The shape type is invalid or unsupported.
+ */
+define( "kTYPE_ERROR_CODE_BAD_SHAPE_TYPE",		-13 );
+
+/**
+ * Bad shape geometry.
+ *
+ * The shape geometry is invalid or unsupported.
+ */
+define( "kTYPE_ERROR_CODE_BAD_SHAPE_GEOMETRY",	-14 );
+
+/**
+ * Bad link.
+ *
+ * The link is invalid or not active.
+ */
+define( "kTYPE_ERROR_CODE_BAD_LINK",			-15 );
+
+/**
+ * Bad date format.
+ *
+ * Invalid date format.
+ */
+define( "kTYPE_ERROR_CODE_BAD_DATE_FORMAT",		-16 );
+
+/**
+ * Bad date.
+ *
+ * Invalid date.
+ */
+define( "kTYPE_ERROR_CODE_BAD_DATE",			-17 );
+
+/**
+ * Dubious year.
+ *
+ * The year may be incorrect.
+ */
+define( "kTYPE_ERROR_CODE_DUBIOUS_YEAR",		-18 );
+
+/**
+ * Invalid enumeration.
+ *
+ * Enumeration not found.
+ */
+define( "kTYPE_ERROR_CODE_INVALID_ENUM",		-19 );
 
 
 ?>
